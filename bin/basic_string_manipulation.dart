@@ -1,5 +1,5 @@
 void main() {
-  const userInput = 'jkashkjSSdha@Uiomsn.com';
-  final lowercase = userInput.toLowerCase();
-  print(lowercase);
+  const userInput = '221B Baker St.    1';
+  final trimmed = userInput.trim();
+  print(trimmed);
 }
